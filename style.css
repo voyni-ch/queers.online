@@ -1,0 +1,8 @@
+body {
+  background-color: pink;
+  background-image: url("./bg.gif");
+  font-family: monospace;
+  color: cyan;
+  text-shadow: 15px 15px black;
+  font-size: 75px;
+}
