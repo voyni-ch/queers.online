@@ -6,3 +6,19 @@ body {
   text-shadow: 15px 15px black;
   font-size: 75px;
 }
+a {
+  color: #d000ff;
+}
+a:hover {
+  font-weight: bold;
+  /*color: #F49097;*/
+	animation: trans 1.5s linear;     
+	animation-iteration-count: infinite;
+}
+@keyframes trans {
+	0%  {color: #5bcefa}
+	25% {color: pink}
+	50% {color: white}
+	75% {color: pink}
+	100% {color: #5bcefa}
+}
